@@ -1,8 +1,4 @@
-# nekomi_ai/__init__.py
+from .neural_network import NekoNum  # 必要なクラスをインポート
 
-# このファイルを空にしておいても良いですが、
-# もし初期化時に必要な処理があればここに書きます。
+__all__ = ["NekoNum"]  # パッケージから公開するクラスや関数を指定
 
-from .neural_network import NekoNum  # NekoNumクラスをインポート
-
-__all__ = ["NekoNum"]  # 他のモジュールも必要なら追加
